@@ -20,7 +20,7 @@ Fork this boilerplate code to get started with GraphQL Subscriptions.
 4) Run with: ```npm start```
 
 
-**Deployment**
+**Deployment:**
 
 *Note: For development, you only need to run ```npm start```*
 
