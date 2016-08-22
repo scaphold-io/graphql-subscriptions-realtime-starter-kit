@@ -20,8 +20,13 @@ var compiler = webpack({
   output: {filename: 'app.js', path: '/'}
 });
 
+let contentBase = 'src/';
+if (process.env.NODE_ENV === "production") {
+  contentBase = 'lib/';
+}
+
 var app = new WebpackDevServer(compiler, {
-  contentBase: 'lib/',
+  contentBase: contentBase,
   publicPath: '/js/',
   proxy: { '/graphql': config.scapholdUrl },
   stats: {colors: true}

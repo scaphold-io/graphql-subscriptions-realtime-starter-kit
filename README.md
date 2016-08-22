@@ -18,3 +18,10 @@ Fork this boilerplate code to get started with GraphQL Subscriptions.
 5) Install dependencies: ```npm install```
 
 4) Run with: ```npm start```
+
+
+**Deployment**
+
+1) Run ```npm run build``` to transpile ES6 code from the src/ directory to JavaScript in the lib/ directory.
+
+2) Set the environment variable ```process.env.NODE_ENV = 'production'``` to let server.js know to run the code in the lib/ directory.
