@@ -7,8 +7,8 @@
   "scripts": {
     "start": "babel-node ./src/server.js",
     "start-prod": "node ./lib/server.js",
-    "build": "babel src --out-dir lib --sourceRoot src",
-    "buildw": "babel src --out-dir lib -w --sourceRoot src"
+    "build": "cp src/index.html lib/ && babel src --out-dir lib --sourceRoot src",
+    "buildw": "cp src/index.html lib/ && babel src --out-dir lib -w --sourceRoot src"
   },
   "dependencies": {
     "apollo-client": "^0.4.11",
