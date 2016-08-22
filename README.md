@@ -2,11 +2,12 @@
 
 Fork this boilerplate code to get started with GraphQL Subscriptions.
 
-Demo:
+**Demo:**
 
 ![GraphQL Subscriptions](https://s3.amazonaws.com/meshboard.scaphold.io/GraphQL_Subscriptions.gif)
 
-Quickstart:
+
+**Quickstart:**
 
 1) Go to Scaphold.io (https://scaphold.io).
 
