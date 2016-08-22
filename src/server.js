@@ -21,7 +21,7 @@ var compiler = webpack({
 });
 
 var app = new WebpackDevServer(compiler, {
-  contentBase: 'lib/',
+  contentBase: 'src/',
   publicPath: '/js/',
   proxy: { '/graphql': config.scapholdUrl },
   stats: {colors: true}
